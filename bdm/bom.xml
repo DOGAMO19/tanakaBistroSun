@@ -7,6 +7,17 @@
                 <field type="STRING" length="255" name="claveAdmin" nullable="false" collection="false"/>
                 <field type="BOOLEAN" length="255" name="credencialesValidas" nullable="true" collection="false"/>
                 <field type="INTEGER" length="255" name="adminId" nullable="false" collection="false"/>
+                <field type="TEXT" length="255" name="mensajeBienvenida" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nombrePlatillo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="promocionDia" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="informacionPlatillo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicioMensaje" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="duracionMensaje" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="clavePlatillo" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="precioPlatillo" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="tiempoPreparacionPlatillo" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="categoriaPlatillo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaPlatilloMenu" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
