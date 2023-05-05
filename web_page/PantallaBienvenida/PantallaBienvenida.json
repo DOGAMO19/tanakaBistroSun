@@ -1,0 +1,92 @@
+{
+  "modelVersion" : "2.3",
+  "id" : "PantallaBienvenida",
+  "name" : "PantallaBienvenida",
+  "lastUpdate" : 1683269778951,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Tanaka Bistro Sun"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "00b70fc4-3eac-4ecc-8077-9913f1ebcb8f",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "f4f410ac-cbb2-40db-8556-fbbaaf916d2b",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "f5124f71-9028-4d7e-9a51-7fa0eddc6d9c",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "sessionInfo" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedId"
+      ],
+      "exposed" : false
+    },
+    "dataAdministrator" : {
+      "type" : "businessdata",
+      "value" : [
+        "{\"displayValue\":\"findByAdminId [com.company.model.DataAdministrator]\",\"businessObjectName\":\"DataAdministrator\",\"query\":{\"name\":\"findByAdminId\",\"displayName\":\"findByAdminId\"},\"id\":\"com.company.model.DataAdministrator\",\"filters\":[{\"name\":\"adminId\",\"type\":\"INTEGER\",\"collection\":false,\"value\":\"{{sessionInfo.adminId}}\"}],\"pagination\":{\"p\":\"0\",\"c\":\"10\"}}"
+      ],
+      "exposed" : false
+    },
+    "dataAdministrator_selected" : {
+      "type" : "constant",
+      "value" : [
+        ""
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "9918cd5c-1023-4fb9-8ce3-76e038a44e24",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
